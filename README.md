@@ -66,5 +66,4 @@ Appropriate labes were added throughout the processing so no additionl work was 
 
 ###From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
 The reshape2 library was used here to melt and dcast the data appropreatly and the resultant tidy data set saved as tidyDataSet.txt
