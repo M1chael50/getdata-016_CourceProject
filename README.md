@@ -33,15 +33,15 @@ The main data files are then loaded, they form 2 groups Test and Training data
 
 #### Test data files
 
-X_test was loaded using the features data set to set names 
-subject_test
-y_test
+1. X_test was loaded using the features data set to set names 
+2. subject_test
+3. y_test
 
 #### Trianing data files
 
-X_train was loaded using the features data set to set names
-subject_train
-y_train 
+1. X_train was loaded using the features data set to set names
+2. subject_train
+3. y_train 
 
 Suitable column names for subject and y data tables are added "subject", "activity" and the 3 files for each group are combined using cbind
 Before the merging of the 2 groups a dataType factor variable was added ("training & "test")
